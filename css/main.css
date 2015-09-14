@@ -20,6 +20,7 @@
 }
 
 .grant {
+	height: 150px;
 	display: block;
     margin-left: auto;
     margin-right: auto 
@@ -71,7 +72,7 @@ p {
 
 .socialmedia li{
     padding: 2px;
-	height: 150px;
+	height: 70px;
     display:inline-block;
 }
 
@@ -106,3 +107,5 @@ a:-webkit-any-link {
 .socialmedia(alt) {
     visibility: hidden;
 }
+
+
