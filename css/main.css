@@ -20,7 +20,7 @@
 }
 
 .grant {
-	height: 150px;
+	height: 200px;
 	display: block;
     margin-left: auto;
     margin-right: auto 
@@ -49,6 +49,7 @@ body {
 h1 {
 	font-family:'Quicksand', sans-serif;
 	text-align: center;
+	font-size: 26px;
 }
 
 p { 
@@ -72,7 +73,7 @@ p {
 
 .socialmedia li{
     padding: 2px;
-	height: 70px;
+	height: 50px;
     display:inline-block;
 }
 
@@ -109,3 +110,42 @@ a:-webkit-any-link {
 }
 
 
+@media (min-width: 400px) {
+
+.grant { 
+	height: 300px;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+.socialmedia li {
+	height: 70px;
+}
+
+p { 
+	font-size: 18px;
+}
+
+@media (min-width: 700px) { 
+
+.grant { 
+	height: 400px;
+}
+
+h1 {
+	font-size: 46px;
+}
+
+p {
+	font-size: 22px;
+}
+
+body {
+	margin-top: 110px;
+}
+
+.socialmedia li {
+	height: 110px;
+}
