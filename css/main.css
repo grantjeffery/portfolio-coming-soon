@@ -147,5 +147,41 @@ body {
 }
 
 .socialmedia li {
-	height: 110px;
+	height: 90px;
 }
+
+@media (min-width: 1200px) {
+
+.grant {
+	height: 500px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+p {
+	font-size:36px;
+}
+
+body {margin-top: 50px;
+}
+
+}
+
+@media (min-width: 1600px) {
+	
+	body {
+		margin-top: 200px;
+		padding-right: 15%;
+	}
+	
+	h1 {
+		padding-top: 75px;
+		
+}
+	.grant { 
+	float:left;
+	margin-left: 20%;
+	
+	}
