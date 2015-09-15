@@ -1,14 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-
-
 *{
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -34,7 +26,6 @@ html {
 	background: -o-linear-gradient(top,  #1e5799 0%,#3ab34e 0%,#27aae1 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(top,  #1e5799 0%,#3ab34e 0%,#27aae1 100%); /* IE10+ */
 	background: linear-gradient(to bottom,  #1e5799 0%,#3ab34e 0%,#27aae1 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#27aae1',GradientType=0 ); /* IE6-9 */
 	background-repeat: no-repeat;
   	background-attachment: fixed;
   	width: 100%;
@@ -52,9 +43,22 @@ h1 {
 	font-size: 26px;
 }
 
-p { 
+h2 {
 	font-family:'Quicksand', sans-serif;
 	text-align: center;
+	font-size: 18px;
+}
+
+a:link { 
+	font-family:'Quicksand', sans-serif;
+	color:rgb(0,0,0);
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:underline;
 }
 
 .socialmedia {
@@ -67,7 +71,6 @@ p {
     list-style-type: none; /*to remove bullets*/
     text-align: center;
     padding: 0px;
-    zoom:1;
     overflow: hidden;
 }
 
@@ -87,12 +90,6 @@ p {
 *{ height:inherit;
 }
 
-a:-webkit-any-link {
-    color: -webkit-link;
-    text-decoration: underline;
-    cursor: auto;
-}
-
 .dribbble { 
 	background-repeat: no-repeat;
 	background-image:url(../img/dribbble.svg);
@@ -105,9 +102,6 @@ a:-webkit-any-link {
 	background-size: 100%;
 }
 
-.socialmedia(alt) {
-    visibility: hidden;
-}
 
 
 @media (min-width: 400px) {
@@ -120,12 +114,18 @@ h1 {
 	font-size: 32px;
 }
 
+h2 {
+	font-size: 18px;
+}
+
 .socialmedia li {
 	height: 70px;
 }
 
-p { 
+a { 
 	font-size: 18px;
+}
+
 }
 
 @media (min-width: 700px) { 
@@ -138,7 +138,11 @@ h1 {
 	font-size: 46px;
 }
 
-p {
+h2 {
+	font-size: 22px;
+}
+
+a {
 	font-size: 22px;
 }
 
@@ -148,6 +152,8 @@ body {
 
 .socialmedia li {
 	height: 90px;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -160,8 +166,12 @@ h1 {
 	font-size: 60px;
 }
 
-p {
-	font-size:36px;
+h2 {
+	font-size: 36px;
+}
+
+a {
+	font-size: 36px;
 }
 
 body {margin-top: 50px;
@@ -185,3 +195,5 @@ body {margin-top: 50px;
 	margin-left: 20%;
 	
 	}
+}
+
